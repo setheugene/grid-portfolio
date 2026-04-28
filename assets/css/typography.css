@@ -1,0 +1,68 @@
+/* ==========================================================================
+   Typography — heading scale
+   ========================================================================== */
+
+/*
+ * All hdg- classes define: font-family, font-size (fluid via clamp),
+ * font-weight, line-height, and letter-spacing where applicable.
+ *
+ * They do NOT set color, margin, or max-width — keep those on the element.
+ *
+ * Usage: <h1 class="hdg-1 text-text mb-8">…</h1>
+ */
+
+@layer components {
+
+	/* hdg-1 — hero / splash display heading */
+	.hdg-1 {
+		font-family: var(--font-display);
+		font-size: clamp(3rem, 8vw, 5.5rem);
+		font-weight: 700;
+		line-height: 1.05;
+		letter-spacing: -0.025em;
+	}
+
+	/* hdg-2 — page title heading */
+	.hdg-2 {
+		font-family: var(--font-display);
+		font-size: clamp(2.25rem, 5vw, 4rem);
+		font-weight: 700;
+		line-height: 1.05;
+		letter-spacing: -0.02em;
+	}
+
+	/* hdg-3 — section heading */
+	.hdg-3 {
+		font-family: var(--font-display);
+		font-size: clamp(1.875rem, 3.5vw, 2.75rem);
+		font-weight: 700;
+		line-height: 1.1;
+		letter-spacing: -0.015em;
+	}
+
+	/* hdg-4 — subsection / card title */
+	.hdg-4 {
+		font-family: var(--font-display);
+		font-size: clamp(1.375rem, 2vw, 1.75rem);
+		font-weight: 600;
+		line-height: 1.2;
+	}
+
+	/* hdg-5 — minor heading / timeline role */
+	.hdg-5 {
+		font-family: var(--font-display);
+		font-size: 1.25rem;
+		font-weight: 600;
+		line-height: 1.3;
+	}
+
+	/* hdg-6 — smallest heading */
+	.hdg-6 {
+		font-family: var(--font-display);
+		font-size: 1rem;
+		font-weight: 600;
+		line-height: 1.4;
+		letter-spacing: 0.01em;
+	}
+
+}

@@ -1,0 +1,8 @@
+# Tailwind CLI binary — download with: curl -sLo tailwindcss https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-macos-arm64 && chmod +x tailwindcss
+tailwindcss
+
+# Node (if ever added)
+node_modules/
+
+# macOS
+.DS_Store
