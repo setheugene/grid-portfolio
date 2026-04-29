@@ -15,7 +15,7 @@ A custom WordPress portfolio site for Seth — a senior WordPress engineer activ
 ## Repo Structure
 
 ```
-/wp-content/themes/theme-carpentry/
+/wp-content/themes/grid-portfolio/
 ├── style.css
 ├── functions.php
 ├── index.php
@@ -226,8 +226,8 @@ No other plugins. Resist the urge to add more.
 
 - **Production:** Flywheel hosting
 - **Local dev:** Local by Flywheel
-- WordPress root is at `/Users/seth/Local Sites/carpentry/app/public/`
-- Theme lives at `wp-content/themes/theme-carpentry/`
+- WordPress root is at `/Users/seth/Local Sites/grid-portfolio/app/public/`
+- Theme lives at `wp-content/themes/grid-portfolio/`
 
 ---
 
